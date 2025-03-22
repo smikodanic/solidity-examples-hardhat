@@ -19,8 +19,8 @@ $ npx hardhat
 $ npx hardhat clean     // delete artifacts folder and files from cache folder
 $ npx hardhat compile   // compiles all changed .sol files in /contracts folder
 $ npx hardhat node      // start the ETH server
-$ npx hardhat run scripts/HelloWorld-deploy.js --network localhost     // deploy the contract
-$ npx hardhat ignition deploy ignition/modules/Lock.js --network localhost
+$ npx hardhat run scripts/HelloWorld-deploy.js --network localhost     // deploy the contract with ethers.js
+$ npx hardhat ignition deploy ignition/modules/Lock.js --network localhost // deploy the contract with hardhat ignition
 ```
 
 ## Links
