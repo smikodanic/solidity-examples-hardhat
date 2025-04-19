@@ -36,6 +36,6 @@ contract ContractKeywords is Parent {
 
     /*** selfdestruct() - DEPRECATED ***/
     function destroy(address payable recipient) public {
-        selfdestruct(recipient);
+        // selfdestruct(recipient);
     }
 }

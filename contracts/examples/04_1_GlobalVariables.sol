@@ -24,8 +24,8 @@ contract GlobalVariables {
         // EIP-1559 Base Fee
         basefee = block.basefee; // 0
         
-        // EIP-4844 Blob Base Fee
-        blobbasefee = block.blobbasefee; // 0
+        // EIP-4844 Blob Base Fee - NOT SUPPORTED
+        // blobbasefee = block.blobbasefee; // 0
         
         // Chain ID
         chainid = block.chainid; // 31337
@@ -42,8 +42,8 @@ contract GlobalVariables {
         // Random number from beacon chain (post-Paris)
         prevrandao = block.prevrandao; // 97571247138466888709650237762216048135024179244986646192407437056360837632164
 
-        // Difficulty (pre-Paris) / prevrandao alias (post-Paris)
-        difficulty = block.difficulty; // 97571247138466888709650237762216048135024179244986646192407437056360837632164
+        // Difficulty (pre-Paris) / prevrandao alias (post-Paris) DEPRECATED
+        // difficulty = block.difficulty; // 97571247138466888709650237762216048135024179244986646192407437056360837632164
         
         // Block timestamp in seconds format
         timestamp = block.timestamp; // 1743339159
