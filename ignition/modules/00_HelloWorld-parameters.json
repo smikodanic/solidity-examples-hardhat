@@ -1,0 +1,5 @@
+{
+  "HelloWorldModule": {
+    "initialMessage": "Greeting from JSON file."
+  }
+}
